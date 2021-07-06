@@ -3,7 +3,7 @@ from unittest import TestCase
 from datarecord import OERecord
 from floe.test import CubeTestRunner
 
-from {{cookiecutter.module_name}}.mycube import MyCube
+from {{cookiecutter.module_name}}.example_cube import MyCube
 
 
 class MyCubeTest(TestCase):

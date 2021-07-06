@@ -62,7 +62,7 @@ class TestReadWriteFloe(FloeTestCase):
 
     def test_simple_run(self):
         workfloe = WorkFloeWrapper.get_workfloe(
-            os.path.join(FLOES_DIR, "myfloe.py"),
+            os.path.join(FLOES_DIR, "example_floe.py"),
             run_timeout=1200
         )
         input_file = DatasetWrapper.get_dataset(os.path.join(FILE_DIR, "10.ism"))
